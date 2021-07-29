@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body, html {
@@ -92,7 +91,6 @@ a.btn {
 .github {
   background-image: url(https://portfolio-rails-2633.herokuapp.com/assets/github-edc899c60c7b3afd0c458e648197f578.svg);
   background-position: center center;
-  
 }
 
 .linkedin {
@@ -100,7 +98,45 @@ a.btn {
   background-position: center center;
 }
 
+.tumblr {
+  background-image: url(https://portfolio-rails-2633.herokuapp.com/tumblr.svg);
+  background-position: center center;
+}
 
+.twitter {
+  background-image: url(https://portfolio-rails-2633.herokuapp.com/assets/twitter-8c095eaee58362a46d56e3f07b50b23b.svg);
+  background-position: center center;
+}
+
+.youtube {
+  background-image: url(http://cdn.flaticon.com/svg/56/56723.svg);
+  background-position: center center;
+}
+
+.vimeo {
+  background-image: url(https://portfolio-rails-2633.herokuapp.com/vimeo.svg);
+  background-position: center center;
+}
+
+.instagram {
+  background-image: url(https://portfolio-rails-2633.herokuapp.com/assets/instagram-057a090ac0e0184c68efc07e412eec3b.svg);
+  background-position: center center;
+}
+
+.facebook {
+  background-image: url(https://portfolio-rails-2633.herokuapp.com/assets/facebook-70848fad6bf158b9a52e47d9bc956b8a.svg);
+  background-position: center center;
+}
+
+.pinterest {
+  background-image: url(https://portfolio-rails-2633.herokuapp.com/pinterest.svg);
+  background-position: center center;
+}
+
+.gplus {
+  background-image: url(https://portfolio-rails-2633.herokuapp.com/assets/gplus-b3a33145641e08e048cd10ed0ece59ce.svg);
+  background-position: center center;
+}
 
 .main .container {
   margin: 80px 0;
@@ -115,7 +151,6 @@ a.btn {
 
 .home h2 {
   color: #fff;
-  padding-top: 20px;
 }
 
 a.btn:hover, .nav li a:hover, .nav-btn:hover {
@@ -125,7 +160,7 @@ a.btn:hover, .nav li a:hover, .nav-btn:hover {
 }
 
 .home .jumbotron {
-  background: url('https://image.cnbcfm.com/api/v1/image/106885587-16214575182021-05-19t203912z_144465080_rc28jn9cpt2v_rtrmadp_0_crypto-currency-bitcoin.jpeg?v=1621457768&w=1600&h=900');
+  background: url(https://i.gyazo.com/1d9839faef41a49b611102325ab59b6b.jpg);
   background-position: center center;
   background-size: cover;
   min-height: 600px;
@@ -238,6 +273,10 @@ a.btn:hover, .nav li a:hover, .nav-btn:hover {
   float: right;
 }
 
+#warning {
+  color: red;
+  font-weight: bold;
+}
 
 @media screen and (max-width: 800px) {
   .container {
@@ -253,8 +292,4 @@ a.btn:hover, .nav li a:hover, .nav-btn:hover {
   .contact .row:last-child {
     margin: 0;
   }
-}
-.jumbotron {
-	background: url('https://www.conseil-construction.fr/wp-content/uploads/2017/01/electricit%c3%a9-gratuite-infinie.jpg');
-  background-position: center center;
 }
